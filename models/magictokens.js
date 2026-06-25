@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 
 const TokenSchema = new mongoose.Schema(
   {
-    id:object_id.token,
     email: {
       type: String,
       required: true,
